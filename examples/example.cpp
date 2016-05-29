@@ -8,7 +8,7 @@
 /**
  * Do not include the example code by default in your sketch
  */
-// #ifdef __INCLUDE_DIP2044NLED_EXAMPLE
+#ifdef __INCLUDE_DIP2044NLED_EXAMPLE
 
 #include "dip2044nled_driver_mcp23017.h"
 #include "dip2044nled.h"
@@ -38,4 +38,4 @@ void loop() {
 	lcd->println(millis());
 }
 
-// #endif
+#endif
