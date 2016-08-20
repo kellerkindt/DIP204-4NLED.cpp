@@ -1,7 +1,7 @@
 # DIP204-4NLED.cpp
 C++ implementation to talk to a [DIP204-4NLED](http://www.lcd-module.de/pdf/doma/dip204-4.pdf)  as a Print subclass (for Arduino).
 
-This has been developed in late 2014, and uploaded in 2016-05-29 after I discovered it again.
+This has been developed in late 2014, and uploaded at 2016-05-29 after I discovered it again.
 
 Maybe someone can make use of it :)
 
@@ -25,4 +25,3 @@ EaDip2044NledDriver *lcdDriver = new EaDip2044NledMcp23017Driver(0x20, true, 3, 
  */ 
 EaDip2044Nled *lcd = new EaDip2044Nled(lcdDriver);
 ```
-
